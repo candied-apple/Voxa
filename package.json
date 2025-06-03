@@ -1,0 +1,39 @@
+{
+  "name": "voxa-chat",
+  "version": "1.0.0",
+  "description": "Modern group chat application with Material Design",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "client": "cd client && npm start",
+    "build": "cd client && npm run build",
+    "install-client": "cd client && npm install"
+  },
+  "keywords": [
+    "chat",
+    "websocket",
+    "material-design",
+    "group-chat"
+  ],
+  "author": "Voxa Team",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.10.0",
+    "helmet": "^7.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.0",
+    "multer": "^1.4.5-lts.1",
+    "sharp": "^0.32.5",
+    "socket.io": "^4.7.2",
+    "validator": "^13.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
